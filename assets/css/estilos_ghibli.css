@@ -195,11 +195,30 @@ body {
 }
 
 header {
-  background: #b7d5c4;
+  position: relative;
+  background: #b7d5c4 url('../img/ghibli_banner.png') center/cover no-repeat;
   color: #2e2e2e;
   box-shadow: 0 2px 8px rgba(183, 213, 196, 0.2);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  min-height: 180px;
+  height: 180px;
+  max-height: 220px;
+  width: 100%;
+  background-size: 100% 100%;
+}
+.ghibli-header-titulo {
+  position: absolute;
+  right: 2.5rem;
+  bottom: 1.2rem;
+  margin: 0;
+  padding: 0.7rem 1.5rem;
+  background: rgba(255,255,255,0.75);
+  color: #2e2e2e;
+  border-radius: 12px;
+  font-size: 2.1rem;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(183, 213, 196, 0.13);
 }
 
 footer {
