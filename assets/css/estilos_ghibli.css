@@ -1,0 +1,278 @@
+
+/* Banner en canvas */
+.ghibli-canvas-banner {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.2rem;
+}
+.ghibli-canvas-img {
+  width: 360px;
+  height: auto;
+  border-radius: 48px;
+  box-shadow: 0 6px 36px rgba(183, 213, 196, 0.18);
+}
+/* Header vistoso con personajes */
+.ghibli-header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.ghibli-header-icon {
+  width: 48px;
+  height: 48px;
+  margin: 0 0.5rem;
+}
+.ghibli-header-characters {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 0.5rem;
+}
+.ghibli-header-char {
+  width: 38px;
+  height: 38px;
+  filter: drop-shadow(0 2px 4px #b7d5c4);
+}
+
+/* Botones con iconos */
+.ghibli-btn-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.ghibli-btn-bar button {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+}
+.ghibli-btn-icon {
+  width: 52px;
+  height: 52px;
+  margin-right: 0.3em;
+  vertical-align: middle;
+}
+
+/* Footer con personajes */
+.ghibli-footer {
+  background: #b7d5c4;
+  color: #2e2e2e;
+  text-align: center;
+  padding: 0.5rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.ghibli-footer-icons {
+  margin-top: 0.3rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+.ghibli-footer-icon {
+  width: 32px;
+  height: 32px;
+  filter: drop-shadow(0 2px 4px #b7d5c4);
+}
+/* Resaltado de títulos y años */
+.ghibli-bold {
+  font-weight: bold;
+}
+.ghibli-large {
+  font-size: 1.35em;
+}
+
+/* Tabla visual moderna */
+.ghibli-table {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+}
+.ghibli-table-header {
+  display: flex;
+  gap: 2em;
+  font-weight: bold;
+  font-size: 1.15em;
+  border-bottom: 2px solid #b7d5c4;
+  padding-bottom: 0.3em;
+}
+.ghibli-table-row {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+  padding: 0.2em 0;
+}
+
+/* Cartas coleccionables */
+.ghibli-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.ghibli-card {
+  background: #fffbe6;
+  border: 2px solid #b7d5c4;
+  border-radius: 18px;
+  box-shadow: 0 4px 16px rgba(183, 213, 196, 0.13);
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.2rem 1rem 1rem 1rem;
+  transition: transform 0.18s, box-shadow 0.18s;
+}
+.ghibli-card:hover {
+  transform: translateY(-6px) scale(1.04);
+  box-shadow: 0 8px 32px rgba(183, 213, 196, 0.22);
+}
+.ghibli-card-img {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  background: #e6e1c5;
+}
+.ghibli-card-title {
+  font-weight: bold;
+  font-size: 1.18em;
+  margin-bottom: 0.3em;
+  text-align: center;
+}
+.ghibli-card-year {
+  font-size: 1.05em;
+  color: #4b5e4b;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Descripción con imagen */
+.ghibli-desc-block {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  background: #fffbe6;
+  border: 2px solid #b7d5c4;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(183, 213, 196, 0.10);
+  margin-bottom: 2rem;
+  padding: 1.2rem 1.5rem;
+}
+.ghibli-desc-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 160px;
+}
+.ghibli-desc-img {
+  width: 140px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 0.7em;
+  background: #e6e1c5;
+}
+.ghibli-desc-title {
+  font-weight: bold;
+  font-size: 1.22em;
+  text-align: center;
+}
+.ghibli-desc-text {
+  font-size: 1.08em;
+  color: #2e2e2e;
+  line-height: 1.7;
+  max-width: 600px;
+}
+/* Paleta inspirada en Tonari No Totoro */
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #f7f3e3 0%, #e6e1c5 100%);
+  color: #2e2e2e;
+  margin: 0;
+}
+
+header {
+  background: #b7d5c4;
+  color: #2e2e2e;
+  box-shadow: 0 2px 8px rgba(183, 213, 196, 0.2);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+footer {
+  background: #b7d5c4;
+  color: #2e2e2e;
+  box-shadow: 0 -2px 8px rgba(183, 213, 196, 0.15);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: rgba(255,255,255,0.7);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(183, 213, 196, 0.15);
+  padding: 2rem;
+}
+
+div[style*="display: flex"] {
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+button {
+  background: linear-gradient(90deg, #b7d5c4 60%, #a3c1ad 100%);
+  color: #2e2e2e;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.05rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(183, 213, 196, 0.12);
+  transition: background 0.2s, transform 0.2s;
+}
+button:hover {
+  background: linear-gradient(90deg, #a3c1ad 60%, #b7d5c4 100%);
+  transform: translateY(-2px) scale(1.04);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap');
+
+pre#salida {
+  background: #fffbe6;
+  color: #2e2e2e;
+  border: 1.5px solid #b7d5c4;
+  border-radius: 12px;
+  min-height: 220px;
+  font-size: 1.13rem;
+  padding: 1.7rem 1.5rem;
+  overflow-x: auto;
+  font-family: 'JetBrains Mono', 'Fira Mono', 'Consolas', 'Menlo', monospace;
+  box-shadow: 0 2px 12px rgba(183, 213, 196, 0.10);
+  margin-top: 1rem;
+  letter-spacing: 0.02em;
+  line-height: 1.8;
+  white-space: pre-line;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 1rem;
+  }
+  pre#salida {
+    font-size: 0.95rem;
+    padding: 0.7rem;
+  }
+  button {
+    font-size: 0.95rem;
+    padding: 0.6rem 1rem;
+  }
+}

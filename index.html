@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Ghibli - Ejercicio Práctico</title>
+  <link rel="stylesheet" href="assets/css/estilos_ghibli.css">
+</head>
+<body>
+  <header class="ghibli-header">
+    <div class="ghibli-header-bar">
+      <img src="assets/img/totoro_banner.png" alt="Totoro Banner" class="ghibli-header-banner"/>
+      <h1>Estudio Ghibli - Películas</h1>
+      <img src="assets/img/makurokurosuke_banner.png" alt="Makurokurosuke Banner" class="ghibli-header-banner"/>
+    </div>
+     </header>
+  <main style="background-color: #f7f3e3; min-height: 80vh; padding: 2rem;">
+    <div class="ghibli-btn-bar">
+      <button id="btn-titulos-directores"><img src="assets/img/mononoke.png" alt="Mononoke" class="ghibli-btn-icon"/> Títulos y Directores</button>
+      <button id="btn-titulos-anio"><img src="assets/img/totoro.png" alt="Totoro" class="ghibli-btn-icon"/> Títulos y Año</button>
+      <button id="btn-filtrar-anio"><img src="assets/img/calcifer.png" alt="Calcifer" class="ghibli-btn-icon"/> Filtrar por Año</button>
+      <button id="btn-titulos-descripcion"><img src="assets/img/gato_kiki.png" alt="Gato Kiki" class="ghibli-btn-icon"/> Títulos y Descripción</button>
+      <button id="btn-ids"><img src="assets/img/noface.png" alt="No Face" class="ghibli-btn-icon"/> Listar IDs</button>
+    </div>
+
+    <pre id="salida"></pre>
+  </main>
+  <footer class="ghibli-footer">
+    <small>Inspirado en Tonari No Totoro - Studio Ghibli</small>
+    <div class="ghibli-footer-icons">
+     <img src="assets/img/calcifer_banner.png" alt="Calcifer Banner" class="ghibli-footer-banner"/>
+    </div>
+  </footer>
+  <script src="js/ghibli_api.js"></script>
+  <script src="js/ghibli_app.js"></script>
+</body>
+</html>
